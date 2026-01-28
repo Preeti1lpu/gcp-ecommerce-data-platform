@@ -1,11 +1,19 @@
-Daily event volume (50M/day)
+Structured sections covering:
 
-Peak throughput (events/sec)
+1️⃣ Functional Requirements
 
-Latency SLA (real-time ≤5 sec, batch ≤1 hr)
+Event types (clicks, orders, payments)
 
-Data retention (5 years)
+Data sources
 
-Security (IAM, KMS, VPC-SC, PII masking)
+2️⃣ Non-Functional Requirements
 
-Compliance (GDPR – right to forget, audit logs)
+Daily volume (e.g., 50M events/day)
+
+Throughput & latency (streaming ≤5 sec, batch ≤1 hr)
+
+Retention (5 years)
+
+Security & compliance (IAM, KMS, GDPR/PII)
+
+SLA & availability
