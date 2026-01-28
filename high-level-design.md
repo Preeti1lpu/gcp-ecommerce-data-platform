@@ -1,20 +1,7 @@
-E-Commerce Apps (Web, Mobile, Payment, OMS)
-                |
-             Pub/Sub
-                |
-     -------------------------
-     |   Streaming Layer   |  (Dataflow)
-     -------------------------
-        |             |
-  Real-Time Metrics   GCS (Bronze)
-  (BigQuery / Druid)       |
-                           v
-                  Batch Processing
-                (Dataproc Spark)
-                           |
-                    GCS Silver/Gold
-                           |
-                        BigQuery
-                           |
-                     BI / ML / APIs
-    
+Pub/Sub
+Dataflow / Dataproc
+GCS Bronze/Silver/Gold
+BigQuery
+Cloud Composer
+Looker/Vertex AI
+Monitoring
