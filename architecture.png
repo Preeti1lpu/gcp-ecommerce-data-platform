@@ -1,0 +1,7 @@
+Sources → Pub/Sub → Dataflow → GCS Bronze/Silver/Gold → BigQuery → Looker/Vertex AI
+              |                       |
+         Dead-letter queues      Backfill/backpressure logic
+              |
+   Cloud Composer (orchestration)
+              |
+   Cloud Monitoring + Alerts
