@@ -62,3 +62,23 @@ Data freshness SLA: <10 minutes for critical tables
 Monitoring: pipeline lag, error rate, schema drift
 
 Alerting on SLA breach, DAG failures, Pub/Sub backlog
+
+At its core, an e-commerce platform must support:-
+
+Functional Requirement for the E-Commerce platform :-
+1. User accounts & authentication – allowing customers to create profiles, log in securely, and manage preferences.
+2. Product catalog management – structured product listings with categories, filters, tags, and attributes.
+3. Shopping cart and checkout – persistent, real-time carts and smooth checkout flows across devices.
+4. Payment processing – secure handling of transactions, refunds, and regional payment options.
+5. Order management – end-to-end order lifecycle including tracking, shipping, and returns.
+6. Search & recommendations – intelligent search capabilities and personalized product suggestions.
+7. Analytics & reporting – dashboards for business insights like conversion rates, cart abandonment, and revenue trends.
+
+Non-functional requirements:-
+To keep customers engaged and businesses operational, the system must also guarantee:
+
+1. Scalability – handling seasonal peaks like Black Friday or sudden viral traffic.
+2. Availability – ensuring 24/7 uptime with minimal downtime.
+3. Performance – low latency for search queries, checkout flows, and API responses.
+4. Consistency & reliability – ensuring inventory updates and order statuses are always accurate.
+5. Security & compliance – safeguarding customer data and adhering to standards like PCI DSS, GDPR, and CCPA.

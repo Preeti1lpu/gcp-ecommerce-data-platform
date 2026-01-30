@@ -43,3 +43,4 @@ Cloud Monitoring and Logging track pipeline latency, throughput, error rates,
 and SLA violations. Custom metrics are published from Dataflow and Composer.
 Alerting policies are configured for lag, failed DAGs, and data freshness breaches.
 
+Designing the architecture for an e-commerce platform requires balancing complexity with performance. A well-structured e-commerce system design typically follows a service-oriented or microservices architecture, where each function, from product search to payments, operates independently but integrates seamlessly.
